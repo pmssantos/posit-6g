@@ -12,6 +12,9 @@
   background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3) ), url('index_files/image005.jpg');
   background-repeat: no-repeat;
   background-size: 50%;
+  @media (max-width: 900px) {
+	background-size: 100%;
+   }
   background-position: center;
   background-attachment: scroll;
   color: #000000;
@@ -39,7 +42,14 @@
 	{size:595.3pt 801.9pt;
 	margin:36.0pt 36.0pt 1.0cm 36.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+	{page:WordSection1;
+	width: 50%;
+     @media (max-width: 900px) {
+		width: 100%;
+       }
+	   margin-left: auto;
+	   margin-right: auto
+	}
 .center {
   display: block;
   margin-left: auto;
@@ -53,7 +63,7 @@ div.WordSection1
 
 <body lang=EN-US style='word-wrap:break-word'>
 
-<div class=WordSection1 style="width:50%;margin-left: auto;margin-right: auto">
+<div class=WordSection1 >
 <p class=MsoNormal align=center style='margin-top:0cm;margin-right:5.9pt;
 margin-bottom:0cm;margin-left:7.1pt;margin-bottom:.0001pt;text-align:center'><b><span
 lang=EN-GB style='font-size:14.0pt;font-family:"Segoe UI",sans-serif;
